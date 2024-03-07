@@ -1,0 +1,49 @@
+body {
+    background-color: #181c27;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #searchResults {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #searchBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #searchBar {
+    background: rgb(51, 60, 92);
+    text-decoration: #ffffff;
+    width: 50%;
+    padding: 5px; /* Use 10px if searchBarContainer (sBC) is desactivate */
+    /* If sBC is desactivate -> margin: 20px, 0; */
+    /* If sBC is desactivate -> margin-left: 180px; */
+    border: none;
+    border-radius: 44px;
+    transition: transform 0.8s;
+  }
+
+  #searchBar:hover, :focus {
+    transform: scale(1.15);
+  }

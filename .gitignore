@@ -1,4 +1,4 @@
 WDV-win32-x64/
 node_modules/
 
-*.gitignore
+.gitignore
